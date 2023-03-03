@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.popup-content {
+  background-color: #ffffff;
+  width: 740px;
+  height: 420px;
+  border-radius: 13px;
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+  width: 90vw;
+}
+
+.close-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

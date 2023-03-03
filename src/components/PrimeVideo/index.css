@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.action-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.container-movies {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-movies {
+    max-width: 1160px;
+  }
+  .action-heading {
+    font-size: 32px;
+  }
+}
+.video-img {
+  width: 100%;
+}
